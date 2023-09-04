@@ -1,5 +1,9 @@
 # MotionGenerator
 
+```terminal
+git clone https://github.com/IkegLab/MotionGenerator.git
+```
+
 # pyalterのインストール  
 pyalterのソースもこのリポジトリに含めたので，ソースからインストールできます．　　
 ```terminal
