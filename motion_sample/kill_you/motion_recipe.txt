@@ -1,0 +1,10 @@
+    "Showing shock and fear in response to the statement 'Kill you', several exaggerated motions are below",
+    "0 Create a wide-eyed facial expression of terror and disbelief",
+    "1 Quickly lean back, distancing oneself from the threat",
+    "2 Raise both hands in a defensive gesture, palms facing outward",
+    "3 Take a step back, as if trying to create physical distance",
+    "4 Shake head vigorously to indicate refusal and fear",
+    "5 Place both hands on the chest, as if trying to calm the racing heart",
+    "6 Look around cautiously, as if searching for a way to escape",
+    "7 Take a deep breath and exhale slowly, trying to regain composure",
+    "8 Slowly return to rest position while maintaining a slightly tense expression"

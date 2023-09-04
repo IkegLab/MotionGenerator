@@ -1,0 +1,192 @@
+###output:
+# Eyebrows to furrowed
+alter.set_axes([1], [255])
+time.sleep(0.1)
+
+# Set pupils to neutral position
+alter.set_axes([2, 3], [140, 128])
+time.sleep(0.1)
+
+# Open eyes wide
+alter.set_axes([4], [0])
+time.sleep(0.1)
+
+# Tilt the hips forward
+alter.set_axes([13], [0])
+time.sleep(0.1)
+
+# Bend the waist forward
+alter.set_axes([14], [0])
+time.sleep(0.1)
+
+# Tilt the head forward
+alter.set_axes([10], [0])
+time.sleep(0.1)
+
+# Bend the neck forward
+alter.set_axes([12], [0])
+time.sleep(0.1)
+
+# Raise the left and right shoulders
+alter.set_axes([16, 29], [255, 255])
+time.sleep(0.1)
+
+# Bend the left and right elbows
+alter.set_axes([21, 34], [255, 255])
+time.sleep(0.1)
+
+# Close the left and right hands into fists
+alter.set_axes([25, 26, 27, 28, 38, 39, 40, 41], [255, 255, 255, 255, 255, 255, 255, 255])
+time.sleep(0.1)
+
+# Raise both hands as if holding a guitar
+alter.set_axes([17,18,19,20,21,22,23,24, 30, 31, 32, 33, 34, 35, 36, 37 ,38,39,40, 41],[40, 220, 75, 32, 255, 0, 24, 0,0,170, 120, 220, 130, 90, 40, 20, 255,255,255,255])
+time.sleep(0.1)
+
+# Rapidly move right hand up and down
+alter.set_axes([17,18,19,20,21,22,23,24, 30, 31, 32, 33, 34, 35, 36, 37 ,38,39,40, 41],[40, 220, 75, 32, 255, 0, 24, 0,0,170, 120, 220, 130, 90, 40, 20, 255,255,255,255])
+time.sleep(0.1)
+
+# Set initial position of left hand
+alter.set_axes([16, 17, 18, 19, 20], [128, 64, 64, 64, 32])
+time.sleep(0.1)
+
+# Move left hand along imaginary fretboard
+for i in range(5):
+    # Move left shoulder up and down
+    alter.set_axes([16], [128 + i*5]) # Modified the value to be smaller as per user instruction
+    time.sleep(0.1)
+    # Open and close left armpit
+    alter.set_axes([18], [64 + i*10])
+    time.sleep(0.1)
+    # Lift and lower left arm
+    alter.set_axes([19], [64 + i*10])
+    time.sleep(0.1)
+    # Rotate left upper arm
+    alter.set_axes([20], [30 - i*30]) # Modified the value as per user instruction
+    time.sleep(0.1)
+
+# Mimic strumming motion with right hand
+for i in range(5): 
+    alter.set_axes([36], [255]) 
+    time.sleep(0.1)
+    alter.set_axes([36], [0]) 
+    time.sleep(0.1)
+
+# Change positions of left hand fingers wildly
+for i in range(5):
+    # Bend and straighten left thumb
+    alter.set_axes([25], [255 if i%2 == 0 else 0])
+    time.sleep(0.1)
+    # Bend and straighten left index finger
+    alter.set_axes([26], [255 if i%2 == 0 else 0])
+    time.sleep(0.1)
+    # Bend and straighten left middle finger
+    alter.set_axes([27], [255 if i%2 == 0 else 0])
+    time.sleep(0.1)
+    # Bend and straighten left ring and little fingers
+    alter.set_axes([28], [255 if i%2 == 0 else 0])
+    time.sleep(0.1)
+
+# Start with head in neutral position
+alter.set_axes([9, 10, 11], [128, 160, 122])
+time.sleep(0.1)
+
+# Whip head to the left in time with the beat
+alter.set_axes([9], [255])
+time.sleep(0.1)
+
+# Whip head to the right in time with the beat
+alter.set_axes([9], [0])
+time.sleep(0.1)
+
+# Repeat the head whipping to the beat of the music
+for i in range(10):
+    alter.set_axes([9], [255])
+    time.sleep(0.1)
+    alter.set_axes([9], [0])
+    time.sleep(0.1)
+
+# Return head to neutral position
+alter.set_axes([9, 10, 11], [128, 160, 122])
+time.sleep(0.1)
+
+# Set eyebrows to angry
+alter.set_axes([1], [255])
+time.sleep(0.1)
+
+# Set pupils to neutral
+alter.set_axes([2, 3], [140, 128])
+time.sleep(0.1)
+
+# Open eyes
+alter.set_axes([4], [0])
+time.sleep(0.1)
+
+# Raise both cheeks to smile
+alter.set_axes([5, 6], [255, 255])
+time.sleep(0.1)
+
+# Relax lips
+alter.set_axes([7], [0])
+time.sleep(0.1)
+
+# Open mouth slightly to show intensity
+alter.set_axes([8], [100])
+time.sleep(0.1)
+
+# Tilt head slightly to the left to show passion
+alter.set_axes([9], [200])
+time.sleep(0.1)
+
+# Keep head in neutral up/down position
+alter.set_axes([10], [160])
+time.sleep(0.1)
+
+# Rotate head slightly to the right to show intensity
+alter.set_axes([11], [100])
+time.sleep(0.1)
+
+# Nod head slightly forward to show passion
+alter.set_axes([12], [100])
+time.sleep(0.1)
+
+# Tilt head back
+alter.set_axes([10], [255])
+time.sleep(0.1)
+
+# Mimic strumming a guitar
+# Raise right arm
+alter.set_axes([29], [255])
+time.sleep(0.1)
+
+# Bend right elbow
+alter.set_axes([34], [255])
+time.sleep(0.1)
+
+# Mimic strumming motion with right hand
+for i in range(5): 
+    alter.set_axes([36], [255]) 
+    time.sleep(0.1)
+    alter.set_axes([36], [0]) 
+    time.sleep(0.1)
+
+# Return to neutral position
+alter.set_axes([10, 29, 34, 36], [160, 128, 32, 128]) 
+time.sleep(0.1)
+
+# Set the facial expression to intense (like hearing metal music)
+alter.set_axes([1, 2, 3, 4, 5, 6, 7, 8], [255, 140, 128, 0, 255, 255, 255, 0])
+time.sleep(0.1)
+
+# Slowly return the body to rest position
+alter.set_axes([9, 10, 11, 12, 13, 14, 15, 42], [128, 160, 122, 128, 128, 128, 128, 128])
+time.sleep(0.1)
+
+# Return the left arm to rest position
+alter.set_axes([16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28], [128, 64, 64, 64, 32, 32, 128, 128, 0, 0, 0, 0, 0])
+time.sleep(0.1)
+
+# Return the right arm to rest position
+alter.set_axes([29, 30, 31, 32, 33, 34, 35, 36, 38, 39, 40, 41], [128, 64, 64, 64, 32, 32, 128, 128, 0, 0, 0, 0, 0]) 
+time.sleep(0.1)

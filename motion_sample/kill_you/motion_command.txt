@@ -1,0 +1,62 @@
+# Motion 0: Create a shocked and wide-eyed facial expression
+alter.set_axes([4], [0])
+time.sleep(0.1)
+## Motion 1: Lean back dramatically, as if taken aback by the topic
+alter.set_axes([10, 14, 13, 16, 21, 29, 34, 8, 1], [255, 255, 255, 255, 255, 255, 255, 255, 0])
+time.sleep(0.1)
+## Motion 2: Place one hand on the chest, showing surprise and disbelief
+alter.set_axes([17, 18, 19, 20, 21, 22, 23], [210, 80, 30, 30, 255, 75, 0])
+time.sleep(0.1)
+## Motion 3: Shake the head vigorously from side to side, indicating denial
+for _ in range(4):
+    alter.set_axes([9], [0])
+    time.sleep(0.1)
+    alter.set_axes([9], [255])
+    time.sleep(0.1)
+alter.set_axes([9], [128])
+time.sleep(0.1)
+## Motion 4: Slowly bring both hands to the face, covering the mouth in shock
+alter.set_axes([16, 29, 19, 32, 17, 30, 18, 31, 21, 34, 22, 35, 23, 36, 24, 37, 25, 26, 27, 28, 38, 39, 40, 41, 8, 5, 6, 4, 1],
+               [128, 128, 255, 255, 255, 255, 255, 255, 255, 255, 0, 0, 0, 0, 0, 0, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 0, 0])
+time.sleep(0.1)
+## Motion 5: Lean forward with a concerned expression, showing interest in the conversation
+alter.set_axes([1, 2, 5, 6, 8, 10, 14], [200, 255, 200, 200, 50, 200, 200])
+time.sleep(0.1)
+#output:# Motion 6: Gesture with both hands, as if trying to calm down and process the information
+alter.set_axes([16, 29], [255, 255])
+time.sleep(0.1)
+
+# The palm should face inward
+alter.set_axes([22, 35], [255, 255])
+time.sleep(0.1)
+#output:# Motion 7: Place both hands on the heart, showing a deep emotional reaction
+# At the beginning of Motion 7, both palms should face inward
+# Assuming the commands to make the palms face inward are [22, 35], [255, 255]
+alter.set_axes([22, 35], [255, 255])
+time.sleep(0.1)
+
+# Assuming the commands to put left and right hand on chest are [17, 18, 19, 20, 21, 22, 23], [255, 255, 255, 255, 255, 255, 255] and [29, 30, 31, 32, 33, 34, 35], [255, 255, 255, 255, 255, 255, 255] respectively
+# Modified the armpit close value for both hands to be more close and axis 19, 32 to take value 100
+alter.set_axes([17, 18, 19, 20, 21, 22, 23, 29, 30, 31, 32, 33, 34, 35], [255, 0, 100, 255, 255, 255, 255, 255, 0, 100, 255, 255, 255, 255])
+time.sleep(0.1)
+
+# Now, make both palms face outward again
+alter.set_axes([22, 35], [0, 0])
+time.sleep(0.1)
+## Motion 8: Take a deep breath and slowly exhale, trying to compose oneself
+alter.set_axes([42, 16, 29, 8], [255, 255, 255, 200])
+time.sleep(0.1)
+alter.set_axes([16, 29, 42, 8], [128, 128, 128, 0])
+time.sleep(0.1)
+alter.set_axes([10], [200])
+time.sleep(0.1)
+## Motion 9: Nod slowly and solemnly, acknowledging the seriousness of the topic
+for _ in range(2):
+    alter.set_axes([12], [255])
+    time.sleep(0.5)
+    alter.set_axes([12], [128])
+    time.sleep(0.1)
+## Motion 10: Return to rest position while maintaining a slightly somber facial expression
+alter.set_axes([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] + list(range(16, 42)), 
+               [200, 140, 128, 0, 128, 128, 0, 0, 128, 160, 122, 128, 128, 128, 128] + [128]*26)
+time.sleep(0.1)

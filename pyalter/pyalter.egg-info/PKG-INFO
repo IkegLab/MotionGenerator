@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyalter
+Version: 1.0.1
+Summary: Python package to control Alter3, Alter2 and simulator.
+Home-page: https://github.com/maru-n/pyalter
+Author: marun
+Author-email: norihiro.maruyama@gmail.com
+License: MIT
+License-File: LICENSE

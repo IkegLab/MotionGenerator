@@ -1,0 +1,10 @@
+    "Expressing the energy of playing metal music, several exaggerated motions are below",
+    "0 Set a facial expression of intense focus and energy, with eyes wide and eyebrows furrowed",
+    "1 Quickly lean forward, as if bracing for a powerful impact",
+    "2 Raise both hands as if holding a guitar, fingers in position to strum",
+    "3 Rapidly move right hand up and down, mimicking the motion of strumming a guitar",
+    "4 Simultaneously move left hand along an imaginary fretboard, fingers wildly changing positions",
+    "5 Whip head back and forth, in time with the imagined beats of the music",
+    "6 Show a fierce, passionate smile, reflecting the intensity of the music",
+    "7 Suddenly throw head back, mimicking a dramatic guitar solo",
+    "8 Slowly return to rest position, but maintain the intense facial expression, as if still hearing the echoes of the metal music"

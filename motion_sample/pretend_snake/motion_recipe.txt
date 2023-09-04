@@ -1,0 +1,10 @@
+    "Pretending to be a snake, several exaggerated motions are below",
+    "0 Create a mischievous and playful facial expression, with a sly smile and narrowed eyes",
+    "1 Arch the upper body forward, mimicking the shape of a snake ready to strike",
+    "2 Extend both hands in front, with fingers pointing forward, imitating the movement of a snake's head",
+    "3 Sway the upper body from side to side, in a wave-like motion, imitating the slithering movement of a snake",
+    "4 Open the mouth wide, sticking out the tongue and hissing, mimicking the sound of a snake",
+    "5 Curl the upper body inward, coiling up like a snake preparing to strike",
+    "6 Extend the arms forward, mimicking the movement of a snake extending its fangs",
+    "7 Slowly uncoil the upper body and straighten up, as if the snake is retreating",
+    "8 Return to rest position with a mischievous grin and satisfied expression"
