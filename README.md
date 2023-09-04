@@ -23,9 +23,10 @@ Langchainとopenaiをインストールする必要があります．
 pip install openai
 pip install langchain
 ```
-コード汚いですが，とりあえず動きます．
+motion_generator.ipynbで運動生成します．
 ### 生成には10分くらいかかります．
-1. simulatorに接続 (IPとポートを確認)
-2. action_inputに生成したい運動をかく.
-3. 上から実行していってください．
-4. 生成したコードはmotion_command.txtに保存されます．コピペしてsimulatorに流してください．
+1. OpenAIのAPIをはじめに入力してください．(gitに公開するとBANされるので書いてないです．必要であれば僕の送ります．)
+2. simulatorに接続 (IPとポートを確認)
+3. action_inputに生成したい運動をかく.
+4. 上から実行していってください．
+5. 生成したコードはmotion_command.txtに保存されます．コピペしてsimulatorに流してください．
